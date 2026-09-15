@@ -19,6 +19,7 @@ export const metadata = {
   title: "Imersão Faça Sua Venda Render com Vitor Lessa",
   description:
     "Imersão online e ao vivo de 2 horas para quem vende comida: custos, preço, compras, ofertas e divulgação. Dia 15/10, das 19h às 21h.",
+  formatDetection: { telephone: false, date: false },
   openGraph: {
     title: "Imersão Faça Sua Venda Render com Vitor Lessa",
     description:

@@ -19,11 +19,7 @@ export default function Hero() {
             quanto ganhou, <b>essa imersão foi feita para você.</b>
           </p>
 
-          <p className="lead he" data-i="4" style={{ marginTop: 14 }}>
-            Em 2 horas com <b>Vitor Lessa</b>, que começou vendendo espetinho na rua e hoje tem restaurante e fábrica
-            própria, você vai entender quanto sobra em cada produto, organizar as compras, montar ofertas mais
-            inteligentes e decidir com clareza.
-          </p>
+          
 
           <Botao className="he" data-i="6">
             Quero participar da imersão

@@ -90,6 +90,7 @@ export default function Ingresso() {
                 <span className="cifra">R$</span>
                 <span className="num">{PRECO}</span>
               </div>
+              <p className="parcelas">ou 4x de R$26,40</p>
               <p className="pag">À VISTA · PAGAMENTO ÚNICO</p>
             </div>
 
