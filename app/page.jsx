@@ -14,6 +14,7 @@ import Faq from "@/components/Faq";
 import Fechamento from "@/components/Fechamento";
 import Rodape from "@/components/Rodape";
 import Reveal from "@/components/Reveal";
+import WhatsAppFlutuante from "@/components/WhatsAppFlutuante";
 
 export default function Page() {
   return (
@@ -36,6 +37,7 @@ export default function Page() {
         <Fechamento />
       </main>
       <Rodape />
+      <WhatsAppFlutuante />
     </>
   );
 }

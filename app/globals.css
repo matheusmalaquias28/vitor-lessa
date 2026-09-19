@@ -462,6 +462,27 @@ footer{background:#0B0A0A;padding:44px 0;color:#6E675F;font-size:.84rem}
 .ft a:hover{color:var(--brasa);border-color:var(--brasa)}
 .ft nav{display:flex;gap:20px;flex-wrap:wrap}
 
+/* ============ WHATSAPP FLUTUANTE ============ */
+.wpp-float{
+  position:fixed;right:22px;bottom:22px;z-index:90;
+  width:58px;height:58px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  background:#25D366;color:#fff;
+  box-shadow:0 10px 28px -8px rgba(37,211,102,.65);
+  transition:transform .22s var(--ease),box-shadow .22s var(--ease),filter .22s var(--ease);
+  animation:wpp-entra .7s .9s var(--ease) both,wpp-pulsa 2.8s 1.8s ease-in-out infinite;
+}
+.wpp-float:hover{transform:translateY(-3px) scale(1.05);box-shadow:0 16px 34px -8px rgba(37,211,102,.75);filter:saturate(1.08)}
+.wpp-float:focus-visible{outline:3px solid #128C7E;outline-offset:3px}
+@keyframes wpp-entra{from{opacity:0;transform:translateY(18px) scale(.85)}to{opacity:1;transform:none}}
+@keyframes wpp-pulsa{
+  0%,100%{box-shadow:0 10px 28px -8px rgba(37,211,102,.55)}
+  50%{box-shadow:0 10px 28px -8px rgba(37,211,102,.55),0 0 0 12px rgba(37,211,102,.12)}
+}
+@media(max-width:640px){
+  .wpp-float{right:16px;bottom:16px;width:54px;height:54px}
+}
+
 /* ============ REVEAL ============ */
 .rv{opacity:0;transform:translateY(26px);transition:opacity .75s var(--ease),transform .75s var(--ease)}
 .rv.visivel{opacity:1;transform:none}
