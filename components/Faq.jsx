@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { WPP_DISPLAY, LINK_WHATSAPP_SUPORTE } from "@/lib/config";
 
 const PERGUNTAS = [
   {
@@ -33,11 +34,20 @@ const PERGUNTAS = [
   },
   {
     p: "Como recebo meu acesso?",
-    r: "Depois da confirmação do pagamento, você recebe as instruções por um grupo no WhatsApp. Se tiver algum problema, é só falar com [CONTATO DE SUPORTE].",
+    r: (
+      <>
+        Depois da confirmação do pagamento, você recebe as instruções por um grupo no WhatsApp. Se tiver algum
+        problema, é só falar com o suporte no WhatsApp{" "}
+        <a href={LINK_WHATSAPP_SUPORTE} target="_blank" rel="noopener noreferrer">
+          {WPP_DISPLAY}
+        </a>
+        .
+      </>
+    ),
   },
   {
     p: "Quais são as condições de cancelamento e reembolso?",
-    r: "[INSERIR POLÍTICA CONFIRMADA DE CANCELAMENTO E REEMBOLSO, COM PRAZO, CONDIÇÕES E CANAL DE SOLICITAÇÃO.]",
+    r: "A compra é feita pela Hotmart. Você pode solicitar o reembolso em até 7 dias após a compra, direto pela própria plataforma Hotmart, conforme a política de garantia vigente.",
   },
 ];
 

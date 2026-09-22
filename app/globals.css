@@ -440,6 +440,8 @@ header{
 .faq summary::after{width:2px;height:15px;right:14.5px;transform:translateY(-50%)}
 .faq details[open] summary::after{transform:translateY(-50%) rotate(90deg)}
 .faq .resp p{padding:0 10px 24px 0;color:var(--texto-suave);font-size:.99rem}
+.faq .resp a{color:var(--brasa);font-weight:600;text-decoration:none;border-bottom:1px solid transparent;transition:.2s}
+.faq .resp a:hover{border-color:var(--brasa)}
 .faq details[open] .resp{animation:abre .34s var(--ease)}
 @keyframes abre{from{opacity:0;transform:translateY(-7px)}to{opacity:1;transform:none}}
 
