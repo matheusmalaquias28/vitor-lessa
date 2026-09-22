@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const LINHA = [
   {
     marco: "2010",
@@ -25,9 +27,33 @@ export default function Vitor() {
       <div className="wrap bio-grid">
         <div className="rv">
           <div className="fotos">
-            <img src="/lessa-old-1.jpg" alt="Vitor Lessa no início da trajetória, vendendo espetinho" />
-            <img src="/vitor-lessa-passado (2).jpg" alt="Vitor Lessa em sua trajetória" />
-            <img src="/vitor-lessa-passado (3).jpg" alt="Vitor Lessa em sua trajetória" />
+            <Image
+              src="/lessa-old-1.webp"
+              alt="Vitor Lessa no início da trajetória, vendendo espetinho"
+              width={1000}
+              height={625}
+              loading="lazy"
+              decoding="async"
+              sizes="(max-width: 920px) 100vw, 48vw"
+            />
+            <Image
+              src="/vitor-lessa-passado-2.webp"
+              alt="Vitor Lessa em sua trajetória"
+              width={600}
+              height={600}
+              loading="lazy"
+              decoding="async"
+              sizes="(max-width: 920px) 50vw, 24vw"
+            />
+            <Image
+              src="/vitor-lessa-passado-3.webp"
+              alt="Vitor Lessa em sua trajetória"
+              width={600}
+              height={600}
+              loading="lazy"
+              decoding="async"
+              sizes="(max-width: 920px) 50vw, 24vw"
+            />
           </div>
         </div>
 

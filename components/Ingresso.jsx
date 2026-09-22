@@ -112,11 +112,11 @@ export default function Ingresso() {
               <b>ONLINE · AO VIVO · 2 HORAS</b>
               ACESSO ENVIADO POR GRUPO NO WHATSAPP
               <br />
-              INSCRIÇÕES ATÉ 15/10, 19H
+              INSCRIÇÕES ATÉ {DATA_CURTA}, 19H
             </div>
             <div className="codigo">
               <div className="barras" aria-hidden="true" />
-              <small>VL 15 10 26 097</small>
+              <small>VL 10 10 26 097</small>
             </div>
           </div>
         </div>

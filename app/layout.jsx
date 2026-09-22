@@ -19,7 +19,7 @@ const mono = IBM_Plex_Mono({
 export const metadata = {
   title: "Imersão Faça Sua Venda Render com Vitor Lessa",
   description:
-    "Imersão online e ao vivo de 2 horas para quem vende comida: custos, preço, compras, ofertas e divulgação. Dia 15/10, das 19h às 21h.",
+    "Imersão online e ao vivo de 2 horas para quem vende comida: custos, preço, compras, ofertas e divulgação. Dia 10/10, das 19h às 21h.",
   formatDetection: { telephone: false, date: false },
   openGraph: {
     title: "Imersão Faça Sua Venda Render com Vitor Lessa",
@@ -38,6 +38,22 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR" className={`${archivo.variable} ${mono.variable}`}>
       <head>
+        <link
+          rel="preload"
+          as="image"
+          href="/bg-mobile.webp"
+          type="image/webp"
+          media="(max-width: 920px)"
+          fetchPriority="high"
+        />
+        <link
+          rel="preload"
+          as="image"
+          href="/bg-desk.webp"
+          type="image/webp"
+          media="(min-width: 921px)"
+          fetchPriority="high"
+        />
         <Script id="meta-pixel" strategy="beforeInteractive">{`
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Botao from "./Botao";
 
 const MODULOS = [
@@ -50,7 +51,16 @@ export default function Modulos() {
                   <b>Na prática:</b> {m.pratica}
                 </div>
               </div>
-              <img className="mod-foto" src={`/item-0${i + 1}.jpg`} alt={m.titulo} />
+              <Image
+                className="mod-foto"
+                src={`/item-0${i + 1}.webp`}
+                alt={m.titulo}
+                width={800}
+                height={600}
+                loading="lazy"
+                decoding="async"
+                sizes="(max-width: 1000px) 100vw, 290px"
+              />
             </article>
           ))}
         </div>

@@ -23,7 +23,7 @@ export default function Fechamento() {
         </div>
 
         <Botao grande>Quero fazer minha venda render</Botao>
-        <p className="sob-btn">Inscrições abertas até 15/10, às 19h.</p>
+        <p className="sob-btn">Inscrições abertas até {DATA_CURTA}, às 19h.</p>
       </div>
     </section>
   );
