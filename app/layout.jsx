@@ -19,7 +19,7 @@ const mono = IBM_Plex_Mono({
 export const metadata = {
   title: "Imersão Faça Sua Venda Render com Vitor Lessa",
   description:
-    "Imersão online e ao vivo de 2 horas para quem vende comida: custos, preço, compras, ofertas e divulgação. Dia 10/10, das 19h às 21h.",
+    "Imersão online e ao vivo de 2 horas para quem vende comida: custos, preço, compras, ofertas e divulgação. Dia 13/10, das 19h às 21h.",
   formatDetection: { telephone: false, date: false },
   openGraph: {
     title: "Imersão Faça Sua Venda Render com Vitor Lessa",

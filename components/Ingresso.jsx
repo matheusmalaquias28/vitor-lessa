@@ -116,7 +116,7 @@ export default function Ingresso() {
             </div>
             <div className="codigo">
               <div className="barras" aria-hidden="true" />
-              <small>VL 10 10 26 097</small>
+              <small>VL 13 10 26 097</small>
             </div>
           </div>
         </div>
