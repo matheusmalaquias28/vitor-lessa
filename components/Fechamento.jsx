@@ -1,7 +1,7 @@
 import Botao from "./Botao";
-import { DATA_CURTA } from "@/lib/config";
+import { DATA_CURTA, PRECO } from "@/lib/config";
 
-const RECAP = [`${DATA_CURTA} · 19H ÀS 21H`, "ONLINE E AO VIVO", "2 HORAS", "R$97 À VISTA"];
+const RECAP = [`${DATA_CURTA} · 19H ÀS 21H`, "ONLINE E AO VIVO", "2 HORAS", `R$${PRECO} À VISTA`];
 
 export default function Fechamento() {
   return (

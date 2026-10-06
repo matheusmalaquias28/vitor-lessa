@@ -53,7 +53,7 @@ export default function Ingresso() {
             <div className="ing-serie">
               ADMISSÃO ÚNICA
               <br />
-              Nº 0097 · VL-2026
+              Nº 0067 · VL-2026
             </div>
           </div>
 
@@ -90,7 +90,7 @@ export default function Ingresso() {
                 <span className="cifra">R$</span>
                 <span className="num">{PRECO}</span>
               </div>
-              <p className="parcelas">ou 4x de R$26,40</p>
+              <p className="parcelas">ou 4x de R$18,25</p>
               <p className="pag">À VISTA · PAGAMENTO ÚNICO</p>
             </div>
 
@@ -116,7 +116,7 @@ export default function Ingresso() {
             </div>
             <div className="codigo">
               <div className="barras" aria-hidden="true" />
-              <small>VL 13 10 26 097</small>
+              <small>VL 13 10 26 067</small>
             </div>
           </div>
         </div>
